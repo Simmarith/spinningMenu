@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  height: 100%;
+}
+
+body {
+  height: 98%;
+  width: 98%;
+  background-color: #000;
+}
+
+#buffer {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.spinner {
+  display: inline-block;
+  background-image: url(../img/emptyRing.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  transition: transform 1s, rotate 1.5s;
+  background-size: contain;
+}
+
+.invisible {
+  height: 0px;
+  width: 0px;
+  overflow: hidden;
+  transform: scale(.01,.01) rotate(720deg);
+}
+
+#add {
+  background-image: url('../img/plus.png');
+  background-size: contain;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 115px;
+  left: 15px;
+}
+
+#rem {
+  background-image: url('../img/cross.png');
+  background-size: contain;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 115px;
+  left: 140px;
+}
