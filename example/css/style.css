@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  height: 100%;
+}
+
+body {
+  height: 98%;
+  width: 98%;
+  background-color: #000;
+}
+
+#buffer {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}

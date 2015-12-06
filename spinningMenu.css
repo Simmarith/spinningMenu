@@ -1,24 +1,5 @@
-html {
-  box-sizing: border-box;
-  font-family: 'Orbitron', sans-serif;
-  height: 100%;
-}
-
-body {
-  height: 98%;
-  width: 98%;
-  background-color: #000;
-}
-
-#buffer {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-}
-
 .spinner {
   display: inline-block;
-  background-image: url(../img/emptyRing.png);
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
@@ -33,24 +14,42 @@ body {
   transform: scale(.01,.01) rotate(720deg);
 }
 
-#add {
-  background-image: url('../img/plus.png');
+#topOption {
   background-size: contain;
   display: inline-block;
   width: 70px;
   height: 70px;
-  position: relative;
+  position: absolute;
+  top: 15px;
+  left: 115px;
+}
+
+#leftOption {
+  background-size: contain;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
   top: 115px;
   left: 15px;
 }
 
-#rem {
-  background-image: url('../img/cross.png');
+#bottomOption {
   background-size: contain;
   display: inline-block;
   width: 70px;
   height: 70px;
-  position: relative;
+  position: absolute;
+  bottom: 15px;
+  left: 115px;
+}
+
+#rightOption {
+  background-size: contain;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
   top: 115px;
-  left: 140px;
+  right: 15px;
 }
